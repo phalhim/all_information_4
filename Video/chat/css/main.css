@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navber {
+  width: 100%;
+  height: auto !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.user-info {
+  width: 13%;
+  height: auto !important;
+  background: red;
+  border-radius: 90px;
+}
+.chat-item {
+  width: 90%;
+  height: auto !important;
+  background: thistle;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+.profile-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin: 30px;
+}
+.image {
+  position: relative;
+  height: 75px;
+  width: 75px;
+}
+.image .profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(255, 194, 194, 0.724);
+}
+.data{
+    margin-left: 20px;
+}
